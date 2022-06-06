@@ -1,133 +1,134 @@
 <!doctype html>
 <html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Projects</title>
+      <link 
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         />
+		  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body>
+      <main>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="index.html">Rachana Bolla</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                  aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarColor02">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+					                      <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">About Me</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="previous-work.html">Previous Work</a>
+                     </li>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Projects</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
-  <main>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Rachana Bolla</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
-          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="previous-work.html">Previous Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-me.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container py-4">
-      <!-- <h1>Projects:</h1> -->
-      <h1 id="projects"><span class="me-4"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
-        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
-      </svg></span> Projects</h1>
-              
-    </div>
-    <section>
-      <div class="container lh-lg mt-0">
-        <div class="container py-4">
-          <h2>Project 1:</h2>
-        </div>
-        <div class="container lh-lg mt-0">
-          <p>Pokemon Dashboard Application (Fall, 2021)</p>
-          <p>Click here for viewing the project :
-            <a href="https://github.com/rachana-bolla/pokedash" target="_blank">https://github.com/rachana-bolla/pokedash</a>
-          </p>
-          <h4>Project Description:</h4>
-          <p><strong>Created a front-end web application Pokedex.</strong></p>
-          <p>The dashboard welcomes curious newbies to the Pokémon dashboard. Introduces new users to learn about all
-            pokemon, and charts to show all pokemon regions and types available in these regions information, Also shows
-            pokemon trainers(developers), Pokedex will tell about pokemon and their information like abilities, type..
-          </p>
-          <em>Features implemented:</em>
-          <ul>
-            <li>Pokedex</li>
-            <li>Searchbar</li>
-            <li>Navigation bar</li>
-            <li>Aggregate charts</li>
-            <li>Individual stat charts</li>
-          </ul>
-          <em>Stack:</em>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>PokeAPI</li>
-          <p>Try visiting the look of the site.<a
-              href="https://rachana-bolla.github.io/pokedash/" target="_blank">https://rachana-bolla.github.io/pokedash/</a> </p>
-        </div>
-      </div>
-
-      <div class="container lh-lg mt-0">
-        <div class="container py-4">
-          <h2>Project 2:</h2>
-        </div>
-        <div class="container lh-lg mt-0">
-          <p>Store Management System(Fall, 2021)</p>
-          <h4>Project Description:</h4>
-          <p>
-            Store management ensures that various activities that are involved in maintaining the store and controlling
-            the stock should be carried out efficiently. Maintenance of proper records of new, stored and sold items is
-            one of the important functions of stores with which a proper database is maintained. Consumers spend a lot
-            of money every year on purchase of items in the stores as their basic needs. Retail store owners who provide
-            services to their customers should have a stable and reliable database to give efficient and quality of
-            service. This will automatically give lifelong customers for the stores. With this database, it ensures
-            better supervision and control over items and drastically increases the productivity of the store.
-          </p>
-          <p>
-            <em>Implemented:</em>
-            <span>Entity Relational model.</span><br />
-            <span>Relational Scheme.</span><br />
-            <span>Several SQL queries for Store Management System.</span> <br />
-            <span>Language Used : <strong>SQL</strong></span>
-          </p>
-        </div>
-      </div>
-
-      <div class="container lh-lg mt-0">
-        <div class="container py-4">
-          <h2>Bachelor’s Major Project (2019):</h2>
-        </div>
-        <div class="container lh-lg mt-0">
-          <p><strong>Title:</strong> An Adaptive and Parallel Non-Dominated Sorting Genetic Algorithm to solve Multi-objective Flexible Job Shop Scheduling.</p>
-          <h4>Project Description:</h4>
-          <p>
-            Developed an evolutionary algorithm by integrating Non-Dominated Sorting Genetic Algorithm (NSGA-II) with Adaptive and Parallel features(ANSGA-II) to solve Multi-Objective Job shop scheduling optimization problems. On over 10 BRdataset instances compared to traditional genetic algorithm, developed ANSGA-II performance has been increased by 62% faster
-          </p>
-          <p>Language used: <strong>Java</strong> </p>
-     </div>
-     </div>
-
-    </section>
-  </main>
-  <footer>
-    <div class="text-center p-3 bg-primary text-light">&copy; 2022 Rachana Bolla</div>
-  </footer>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
-
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="container py-4">
+            <!-- <h1>Projects:</h1> -->
+            <h1 id="projects">
+               <span class="me-4">
+					<img src="assets/svg/bi-gear.svg" alt="My_Projects" />
+               </span>
+               Projects
+            </h1>
+         </div>
+         <section>
+            <div class="container lh-lg mt-0">
+               <div class="container py-4">
+                  <h2>Project 1:</h2>
+               </div>
+               <div class="container lh-lg mt-0">
+                  <p>Pokemon Dashboard Application (Fall, 2021)</p>
+                  <p>Click here for viewing the project :
+                     <a href="https://github.com/rachana-bolla/pokedash" target="_blank">https://github.com/rachana-bolla/pokedash</a>
+                  </p>
+                  <h4>Project Description:</h4>
+                  <p><strong>Created a front-end web application Pokedex.</strong></p>
+                  <p>The dashboard welcomes curious newbies to the Pokémon dashboard. Introduces new users to learn about all
+                     pokemon, and charts to show all pokemon regions and types available in these regions information, Also shows
+                     pokemon trainers(developers), Pokedex will tell about pokemon and their information like abilities, type..
+                  </p>
+                  <em>Features implemented:</em>
+                  <ul>
+                     <li>Pokedex</li>
+                     <li>Searchbar</li>
+                     <li>Navigation bar</li>
+                     <li>Aggregate charts</li>
+                     <li>Individual stat charts</li>
+                  </ul>
+                  <em>Stack:</em>
+				  <ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>PokeAPI</li>
+				  </ul>
+                  <p>Try visiting the look of the site.<a
+                     href="https://rachana-bolla.github.io/pokedash/" target="_blank">https://rachana-bolla.github.io/pokedash/</a> </p>
+               </div>
+            </div>
+            <div class="container lh-lg mt-0">
+               <div class="container py-4">
+                  <h2>Project 2:</h2>
+               </div>
+               <div class="container lh-lg mt-0">
+                  <p>Store Management System(Fall, 2021)</p>
+                  <h4>Project Description:</h4>
+                  <p>
+                     Store management ensures that various activities that are involved in maintaining the store and controlling
+                     the stock should be carried out efficiently. Maintenance of proper records of new, stored and sold items is
+                     one of the important functions of stores with which a proper database is maintained. Consumers spend a lot
+                     of money every year on purchase of items in the stores as their basic needs. Retail store owners who provide
+                     services to their customers should have a stable and reliable database to give efficient and quality of
+                     service. This will automatically give lifelong customers for the stores. With this database, it ensures
+                     better supervision and control over items and drastically increases the productivity of the store.
+                  </p>
+                  <p>
+                     <em>Implemented:</em>
+                     <span>Entity Relational model.</span><br />
+                     <span>Relational Scheme.</span><br />
+                     <span>Several SQL queries for Store Management System.</span> <br />
+                     <span>Language Used : <strong>SQL</strong></span>
+                  </p>
+               </div>
+            </div>
+            <div class="container lh-lg mt-0">
+               <div class="container py-4">
+                  <h2>Bachelor’s Major Project (2019):</h2>
+               </div>
+               <div class="container lh-lg mt-0">
+                  <p><strong>Title:</strong> An Adaptive and Parallel Non-Dominated Sorting Genetic Algorithm to solve Multi-objective Flexible Job Shop Scheduling.</p>
+                  <h4>Project Description:</h4>
+                  <p>
+                     Developed an evolutionary algorithm by integrating Non-Dominated Sorting Genetic Algorithm (NSGA-II) with Adaptive and Parallel features(ANSGA-II) to solve Multi-Objective Job shop scheduling optimization problems. On over 10 BRdataset instances compared to traditional genetic algorithm, developed ANSGA-II performance has been increased by 62% faster
+                  </p>
+                  <p>Language used: <strong>Java</strong> </p>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <div class="text-center p-3 bg-primary text-white">&copy; 2022 Rachana Bolla</div>
+      </footer>
+    </body>
 </html>

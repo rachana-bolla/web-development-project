@@ -42,7 +42,4 @@ function validateNull(formelement)
     }
 }
 
-function validateEmail(email)
-{
 
-}
